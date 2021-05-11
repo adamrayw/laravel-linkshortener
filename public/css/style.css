@@ -173,8 +173,8 @@ input:focus {
 }
 
 .form-container {
+    padding: 0 10px;
     text-align: center;
-
     background-color: rgb(111, 195, 223);
     box-shadow: rgb(143, 214, 238) 0px 8px 24px;
     border-radius: 8px;
