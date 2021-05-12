@@ -118,7 +118,7 @@ p {
 
 input[type=text], textarea {
     text-align: center;
-    border: 1px solid gray;
+    border: 1px solid white;
     padding: 10px;
     color: gray;
     font-size: 1rem;
