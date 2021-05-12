@@ -36,7 +36,7 @@ header {
         text-align: center;
     }
     .header-top {
-        margin-bottom: 16px;
+        margin-bottom: 18px;
     }
     .form-container h1, .form-container p {
         font-size: 1em;
@@ -44,10 +44,24 @@ header {
     .about {
         font-size: 16px;
     }
+    .link {
+        width: 100px;
+        overflow: auto;
+    }
+    .link {
+        width: 100%;
+        overflow: auto;
+        white-space: nowrap;
+    }
+}
+
+.link {
+    white-space: nowrap;   
 }
 
 li {
     display: inline;
+    word-wrap: normal;
 }
 
 li a {
@@ -104,7 +118,7 @@ p {
 
 input[type=text], textarea {
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid gray;
     padding: 10px;
     color: gray;
     font-size: 1rem;
@@ -114,7 +128,7 @@ input[type=text], textarea {
     transition: .6s all;
 }
 
-input:focus {
+input:focus, textarea:focus {
     border: 1px solid lightblue;
     background-color: white;
     color: rgb(111, 195, 223);
@@ -126,7 +140,8 @@ input:focus {
     color: rgb(111, 195, 223);
 }
 
-.short-btn a {
+.short-btn button {
+    border: 0px;
     display: inline-block;
     font-size: 14px;
     margin-top: 16px;
@@ -139,7 +154,7 @@ input:focus {
     transition: .3s all;
 }
 
-.short-btn a:hover {
+.short-btn button:hover {
     background-color: rgb(207, 207, 207);
     transition: .3s all;
 }
@@ -229,4 +244,37 @@ footer {
     text-align: center;
     font-size: 10px;
     padding: 6px;
+}
+
+.latest {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: rgb(111, 195, 223);
+    box-shadow: rgb(143, 214, 238) 0px 8px 24px;
+    text-align: left;
+}
+
+.latest h1 {
+    color: white;
+    margin-bottom: 6px;
+}
+
+.data {
+    height: 200px;
+    overflow: auto;
+}
+
+.latest hr {
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.data > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 6px;
 }
