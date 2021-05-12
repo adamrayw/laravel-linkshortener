@@ -8,7 +8,7 @@
     <!-- <script src="https://kit.fontawesome.com/6678200964.js" crossorigin="anonymous"></script> -->
     <title>@yield('title')</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+        /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap'); */
 
         * {
 
