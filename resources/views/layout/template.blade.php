@@ -60,25 +60,26 @@
                 font-size: 16px;
             }
 
-            .link {
+            /* .link {
                 width: 100px;
                 overflow: auto;
-            }
+            } */
 
-            .link {
+            /* .link {
                 width: 100%;
+                margin: ;
                 overflow: auto;
                 white-space: nowrap;
-            }
+            } */
         }
 
-        .link {
+        /* .link {
             white-space: nowrap;
-        }
+        } */
 
         li {
-            display: inline;
-            word-wrap: normal;
+            display: inline-block;
+
         }
 
         li a {
