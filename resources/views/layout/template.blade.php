@@ -312,7 +312,7 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/pages/contact">Contact</a></li>
                     <li><a href="/pages/about">About</a></li>
-                    <li><a href="/pages/about">Find</a></li>
+                    <!-- <li><a href="/pages/about">Find</a></li> -->
                 </ol>
             </div>
         </header>
