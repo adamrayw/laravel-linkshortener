@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/6678200964.js" crossorigin="anonymous"></script>
-    <title>Linku - buat link anda menjadi pendek</title>
+    <title>Shortku - buat link menjadi lebih pendek.</title>
 </head>
 
 <body>
