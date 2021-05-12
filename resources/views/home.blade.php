@@ -31,7 +31,7 @@
             <div class="data">
                 @foreach ($link as $links)
 
-                <a href="http://127.0.0.1:8000/{{$links->code}}">http://127.0.0.1:8000/{{$links->code}}</a><br>
+                <a href="https://shortku.herokuapp.com/{{$links->code}}">https://shortku.herokuapp.com/{{$links->code}}</a><br>
                 @endforeach
                 @if(count($link) < 1) <p style="text-align: center; color: white;">No shortened links yet.</p>
                     @endif
