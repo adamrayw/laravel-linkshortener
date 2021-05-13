@@ -16,7 +16,7 @@
                 </label>
             </div>
             @if(Session::has('success'))
-            <p style="text-align: center; font-size: 14px;">{{ Session::get('success') }}</p>
+            <p style="text-align: center; font-size: 12px; color:white; margin-top: 6px;">{{ Session::get('success') }}</p>
             @endif
             <div class="short-btn">
                 <button type="submit"><i class="fas fa-link fa-lg"></i> Short Now</button>
