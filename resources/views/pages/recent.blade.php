@@ -6,7 +6,7 @@
 <section>
     <div class="latest-container">
         <div class="latest">
-            <h1>The recently shorted links</h1>
+            <h1>Recently Shorted Links</h1>
             <hr>
             <section>
                 <div class="data">
