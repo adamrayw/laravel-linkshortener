@@ -1,6 +1,6 @@
 @extends('layout.template')
 
-@section('title', 'Shortku - Persingkat link anda dengan mudah!')
+@section('title', 'Shortku - Persingkat Link Anda dengan Mudah!')
 
 @section('content')
 <section id="header" class="header-container">
