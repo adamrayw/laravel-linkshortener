@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
-
 * {
 
     margin: 0;
@@ -30,38 +28,47 @@ header {
     header {
         flex-direction: column;
     }
+
     .header-top h1 {
         margin-bottom: 4px;
         color: rgb(111, 195, 223);
         text-align: center;
     }
+
     .header-top {
         margin-bottom: 18px;
     }
-    .form-container h1, .form-container p {
+
+    .form-container h1,
+    .form-container p {
         font-size: 1em;
     }
+
     .about {
         font-size: 16px;
     }
-    .link {
+
+    /* .link {
         width: 100px;
         overflow: auto;
-    }
+    } */
+
     .link {
+        text-align: center;
         width: 100%;
-        overflow: auto;
+        margin: 0 auto;
+        overflow: scroll;
         white-space: nowrap;
     }
 }
 
 .link {
-    white-space: nowrap;   
+    white-space: nowrap;
 }
 
 li {
-    display: inline;
-    word-wrap: normal;
+    display: inline-block;
+
 }
 
 li a {
@@ -86,17 +93,17 @@ li a:hover {
 
 h1 {
     color: rgb(111, 195, 223)
-    
 }
 
 p {
-    color: rgb(134, 132, 132);;
+    color: rgb(134, 132, 132);
+    ;
     font-weight: 400;
-    
+
 }
 
 .header-container {
-    padding: 0 10px;
+    padding: 0 20px;
 
 }
 
@@ -116,7 +123,8 @@ p {
     color: white;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     text-align: center;
     border: 1px solid white;
     padding: 10px;
@@ -128,7 +136,8 @@ input[type=text], textarea {
     transition: .6s all;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border: 1px solid lightblue;
     background-color: white;
     color: rgb(111, 195, 223);
@@ -246,6 +255,10 @@ footer {
     padding: 6px;
 }
 
+.latest-container {
+    padding: 0 20px;
+}
+
 .latest {
     max-width: 600px;
     margin: 40px auto;
@@ -257,6 +270,8 @@ footer {
 }
 
 .latest h1 {
+    font-size: 2em;
+    text-align: center;
     color: white;
     margin-bottom: 6px;
 }
@@ -272,7 +287,7 @@ footer {
     margin-bottom: 16px;
 }
 
-.data > a {
+.data>a {
     display: block;
     color: white;
     text-decoration: none;
